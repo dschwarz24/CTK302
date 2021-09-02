@@ -1,4 +1,4 @@
-function setup() {
+fofunction setup() {
   createCanvas(500, 500);
 }
 
