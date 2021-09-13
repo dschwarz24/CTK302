@@ -17,7 +17,15 @@ function draw() {
     rect(200, 200, 200, 200);
   } else {
     // when the mouse isn't pressed!
-    ellipse(200, 200, 200, 200);
+    fill ('#00C458') ;
+    ellipse(836, 339, 150, 150);
+    ellipse(745, 400, 150, 150) ;
+    ellipse(633, 450, 150, 150) ;
+    ellipse(524, 432, 150, 150) ;
+    ellipse(401, 404, 150, 150) ;
+    ellipse(305, 422, 150, 150) ;
+    ellipse(200, 455, 150, 150) ;
+    ellipse(112, 439, 150, 150) ;
   }
 
 
@@ -29,7 +37,7 @@ function draw() {
 
 
 
-  text("Backstory: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", 80, 20);
+  text("", 80, 20);
 
 }
 
