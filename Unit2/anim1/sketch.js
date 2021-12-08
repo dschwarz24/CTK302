@@ -7,7 +7,7 @@ function setup() {
 function draw() {
   background('grey') ;
 
-  rect(x, 100, 100, 100) ;
+  rect (x, 100, 100, 100) ;
 
 
   x = x + 3 ;
