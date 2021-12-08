@@ -82,7 +82,7 @@ function draw() {
   textSize(100);
   textAlign(CENTER);
   textFont(f1);
-  text("Do you wanna build a snowman?", width / 2, 200, windowWidth - 200, windowHeight - 200);
+  text("Do you wanna build a snowman?", width / 2, 400, windowWidth - 200, windowHeight - 200);
 
 
   // Debugging information -- take this out when you're ready for production!
