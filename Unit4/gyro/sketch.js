@@ -15,11 +15,10 @@ function setup() {
 
 //push();
   imageMode(CENTER);
-  rectMode(CENTER);
  duck = loadImage("rubberduck.png");
 //pop();
 
-   f1 = loadFont("patrickhand.ttf");
+   //f1 = loadFont("patrickhand.ttf");
  bubble = loadImage("bubble.jpg");
 }
 
@@ -65,7 +64,7 @@ function draw() {
   strokeWeight (5);
   stroke("black");
   textSize(100);
-  textFont(f1);
+  //textFont(f1);
   textAlign(CENTER);
   text("Squeaky Clean", width / 2, height / 2);
   noStroke();
