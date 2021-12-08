@@ -24,7 +24,7 @@ function setup() {
 
 function draw() {
 
-  background(bubble); // light blue
+  image(bubble, width/2, height/2, width, height); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -63,7 +63,7 @@ function draw() {
   fill('red');
   strokeWeight (5);
   stroke("black");
-  textSize(100);
+  textSize(50);
   //textFont(f1);
   textAlign(CENTER);
   text("Squeaky Clean", width / 2, height / 2);
